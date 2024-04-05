@@ -1,0 +1,81 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+    box-shadow: 2px 2px 2px 1px rgba();
+}
+body{
+    background-color: chocolate;
+}
+.nav-links ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header h2 span{
+    color: #FFA500;
+}
+ul{
+    text-decoration: none;   
+}
+ul>li>a:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.678) ;
+    color: rgba(0, 35, 122, 0.7);
+}
+.Home{
+    background-image: url(https://blog.localadventures.mx/wp-content/uploads/2022/11/destacada-5.jpg);
+    background-size: contain;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: larger;
+    font-style: oblique;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+#sports{
+    display: flex;
+    padding: 25px;
+    gap: 25px;
+ align-items: center;
+}
+.Sports{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder; 
+    text-decoration: none;
+}
+main>section{
+    display: flex;
+    gap: 20px;
+}
+.programs-pic{
+display: flex;
+gap: 20px;
+}
+.About>img{
+    display: flex;
+    gap: 20px;
+}
+.activities{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+.activities tr{
+    background-color: #f2f2f2;
+}
+.activities tr :hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+}
+.activities th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: rgb(138, 20, 20);
+}
